@@ -1,0 +1,122 @@
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    color: #4f4e4e;
+    margin: 0px;
+    line-height: 1.5em;
+    overflow-y: scroll;
+}
+textarea { 
+   min-height: 100%;
+}
+a,a:hover {
+    color:initial;
+    text-decoration:none;
+}
+.album {
+    background: #f4f4f4;
+}
+.navbar {
+    border-radius:0px;
+}
+.card {
+    margin-right:2.5%;
+    margin-bottom:5%;
+    padding:0px;    
+    box-shadow: 0 2px 0 #D9E1E7;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+.stats {
+    padding:0px;
+    margin:0px;
+}
+#deletePost {
+    float:left;
+}
+.comments {
+    margin-bottom:2%;
+}
+.card.full.right {
+    float:left;
+    width:27.5%;
+    margin-right:0%;
+}
+.card > img {
+    margin-bottom:0px;
+}
+.card p {
+    word-wrap: break-word;
+}
+.stats .date a {
+    color:#4f4e4e;
+}
+.stats.comments {
+    display: inline-block;
+}
+.stats li{
+    margin-right:10px;
+    list-style:none;
+    float:left;
+}
+.stats li i{
+    padding-right:5px;   
+}
+.stats li.right{
+    float:right;
+}
+.stats .date {
+    text-transform: uppercase;
+    font-size:12px;
+}
+.stats .date.comments {
+    text-transform: none;
+    font-size:12px;
+}
+.menu {
+    background-color:#435C74;
+    height:77px;
+}
+.stats .date:hover a {
+    color:#222;
+}
+.like button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+.like button:active {
+  color:initial;
+}
+.card-title a:hover {
+    color:#222;
+}
+.menu ul li a {
+    color: rgba(255, 255, 255, .6)!important;
+    line-height: 44px;
+}
+.login.form-inline {
+    line-height: 58px;
+}
+.menu ul li a:hover {
+    color:#fff!important;  
+}
+.profile {
+    color: rgba(255, 255, 255, .5);
+}
+.profile a{
+    display: inline-block!important;
+}
+.card-title a {
+    color:#555;
+}
+.card.full {
+    margin: 0 auto;
+    margin-bottom:3%;
+    width:60%;
+}
